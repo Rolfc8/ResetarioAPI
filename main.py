@@ -32,7 +32,17 @@ def conversorCaf(C):
 @app.get("/recetas/{num}")
 def recet(num):
      receta={
-         "1":"Caldo_de_Pollo",
+         "1":"Caldo_de_Pollo"
+         "300 gramos de pechuga de pollo sin piel"
+         "2 ½ litros de agua"
+         "50 gramos (o ¼) de cebolla en trozo"
+         "2 dientes de ajo"
+         "2 cubitos de Cubo(s) de Knorr® Caldo de Pollo"
+         "1 zanahoria pelada rebanada y cocida"
+         "1 calabaza rebanada"
+         "1 taza de ejotes verdes cocidos y cortados en tercios"
+         "1 elote blanco cocido y en trozos"
+         "4 ramitas de cilantro fresco",
          "2":"Pozole",
          "3":"Mole_de_res",
          "4":"Mole_de_panza",
