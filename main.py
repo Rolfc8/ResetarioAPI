@@ -4,5 +4,5 @@ app=FastAPI()
 def index():
     return"hola a todos, ¿quieres saber sobre recetas para cocinar?"
 @app.get("/recetas/(num)")
-       def receta(num)
+       def receta(num):
         return num
