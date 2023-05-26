@@ -25,7 +25,7 @@ def conversorCaf(C):
     except:
            return "entrada invalida"
         
- @app.get("/recetas/{num}")
+ @app.get("/Recetas/{num}")
  def recet(num):
         receta={
             "1":"Caldo_de_Pollo",
