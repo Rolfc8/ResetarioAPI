@@ -3,6 +3,6 @@ app=FastAPI()
 @app.get("/")
 def index():
     return"hola a todos, ¿quieres saber sobre recetas para cocinar?"
-@app.get("/recetas")
+@app.get("/recetas"):
       return "este es otro mensaje"
       
