@@ -28,14 +28,15 @@ def conversorCaf(C):
                
             
             
-               @app.get("/recetas/{num}")
-               def recet(num):
-                receta={
-                   "1":"Caldo_de_Pollo",
-                   "2":"Pozole",
-                   "3":"Mole_de_res",
-                   "4":"Mole_de_panza",
-                   "5":"Mole_Polano",
+            
+@app.get("/recetas/{num}")
+ def recet(num):
+     receta={
+         "1":"Caldo_de_Pollo",
+         "2":"Pozole",
+         "3":"Mole_de_res",
+         "4":"Mole_de_panza",
+         "5":"Mole_Polano",
             
                         }
-                   return receta[num] 
+     return receta[num] 
