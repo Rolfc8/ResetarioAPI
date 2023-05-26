@@ -12,4 +12,4 @@ def recetas(num):
         "4":"receta para empanadas"
            }
     return (recetas[num])
-    print("coloca numeros del 1 al 5 con comillas");
+  
