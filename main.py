@@ -24,4 +24,15 @@ def conversorCaf(C):
            return f"la temperatura es de {TF} grados farenheit"
     except:
            return "entrada invalida"
-
+        
+ @app.get("/recetas/{num}")
+ def recet(num):
+        receta={
+            "1":"Caldo_de_Pollo",
+            "2":"Pozole",
+            "3":"Mole_de_res",
+            "4":"Mole_de_panza",
+            "5":"Mole_Polano",
+            
+             }
+        return receta[num] 
