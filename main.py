@@ -6,5 +6,22 @@ def index():
 
 @app.get("/Pokemon/{num}")
 def pokemon(num):
-    return num
+    pokemons={
+        "1":"Bulbasaur",
+        "2":"Ivysaur",
+        "3":"Venasaur",
+        "4":"Charmander",
+        
+         }
+        
+    return pokemons[num]
+
+@app.get("/Conversor_Caf/{C}")
+def conversorCaf{C}:
+    try:
+           C=float(C)
+           TF=C*(9/5)+32
+           return f"la temperatura es de {TF} grados farenheit"
+    except:
+           return "entrada invalida"
 
