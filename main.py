@@ -4,3 +4,7 @@ app=FastAPI()
 def index():
     return"hola a todos, ¿quieres saber sobre recetas para cocinar?"
 
+@app.get("/Pokemon/{num}")
+def pokemon(num):
+    return num
+
