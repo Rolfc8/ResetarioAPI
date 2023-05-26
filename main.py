@@ -30,7 +30,7 @@ def conversorCaf(C):
             
             
 @app.get("/recetas/{num}")
- def recet(num):
+def recet(num):
      receta={
          "1":"Caldo_de_Pollo",
          "2":"Pozole",
